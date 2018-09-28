@@ -1,7 +1,7 @@
 <div class="block center">
     
 
-    <form>
+
         <fieldset>
 
 
@@ -13,19 +13,24 @@
         <table>
             <tr>
                 <td><label>Nombre: </label></td>
-                <td><input></td>
+                <td><input id="nombre"></td>
             </tr>
 
             <tr>
                 <td><label>Usuario: </label></td>
-                <td><input></td>
+                <td><input id="usuario"></td>
             </tr>
             <tr>
                 <td><label>Contraseña: </label></td>
-                <td><input></td>
+                <td><input id="clave"></td>
             </tr>
         </table>
+        <br>
+        <center>
+            <button onclick="guardar()">Guardar</button>
+        </center>
     </fieldset>
-    </form>
-
+    <br>
+    <br>
+    <div id="tablaTemp"></div>
 </div>
