@@ -41,3 +41,12 @@ textarea{
     padding:10px;
     background: rgb(207, 204, 204);
 }
+
+.block {
+    height:100px;
+    width:200px;
+    text-align:left;
+}
+.center {
+    margin:auto;
+}
