@@ -13,6 +13,7 @@ var REPO = {
 };
 
 var USUARIOS = [];
+var VERSIONES = [];
 
 /**
  * Injecta el controlador que maneja las acciones de acuerdo a la
